@@ -1,0 +1,10 @@
+<launch>
+
+	<node	name="jiaolong_node"
+		pkg="jiaolong_ros_wrapper"
+		type="jiaolong_node"
+		respawn="false"
+		output="screen">
+	</node>
+
+</launch>
